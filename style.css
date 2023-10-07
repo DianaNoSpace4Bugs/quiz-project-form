@@ -72,3 +72,68 @@ body {
     height: 134px;
    
 }
+/* Quiz estilos */
+form{
+    background-color: #323232;
+}
+section{
+    padding: 14px;
+    margin: 12px;
+}
+@font-face {
+    font-family: "halloween day's" ;
+    src: url(./fonts/halloween\ day\'s.ttf);
+}
+legend{
+    margin-bottom: 13px;
+    text-align: initial;
+    line-height: 19px;
+    background-color: #3a000c;
+    padding: 14px;
+    margin-left: -45px;
+    margin-right: -15px;
+    color: #d9d9d9;
+    font-family: "halloween day's";
+    font-size: larger;
+    letter-spacing: 1px;
+}
+label{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    color: #c5c5c5;
+    font-family: "halloween day's";
+    letter-spacing: 1px;
+}
+
+/* Ver como meter los input en las tarjetas (no sé si puede ser checkbox) */
+
+footer{
+    background-color: rgb(133, 133, 133);
+    display: flex;
+    padding: 26px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: -36px;
+    margin-top: 30px;
+    font-size: medium;
+    color: #480202;
+    font-family: "halloween day's";
+    letter-spacing: 1px;
+
+}
+#botonEnviar{
+    padding: 14px;
+    font-size: 18px;
+    margin-inline: center;
+    background-color: #3f0000;
+    color: #c3c3c3;
+    font-family: "halloween day's";
+    letter-spacing: 1px;
+    font-size: larger;
+}
+#botonEnviar:hover{
+    background-color: #a30101;
+    color: #ffffff;
+}
