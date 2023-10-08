@@ -37,9 +37,9 @@ body {
     margin-bottom: 22px;
     margin-top: 38px;
     font-size: medium;
-    font-family: "Midnight minutes";
+    font-family: "halloween day's";
     font-size: large;
-    letter-spacing: 1.8px;
+    letter-spacing: 0.9px;
     line-height: 27px;
   
 }
@@ -76,9 +76,10 @@ body {
 form{
     background-color: #323232;
 }
-section{
+fieldset{
     padding: 14px;
     margin: 12px;
+    border: 3px solid #6f6f6f;
 }
 @font-face {
     font-family: "halloween day's" ;
@@ -98,16 +99,18 @@ legend{
     letter-spacing: 1px;
 }
 label{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin-bottom: 5px;
     border: 1px solid black;
     padding: 10px;
     color: #c5c5c5;
     font-family: "halloween day's";
     letter-spacing: 1px;
 }
+input [type="radio"]{
+    display: none;
+}
 
-/* Ver como meter los input en las tarjetas (no sé si puede ser checkbox) */
 
 footer{
     background-color: rgb(133, 133, 133);
@@ -121,6 +124,7 @@ footer{
     color: #480202;
     font-family: "halloween day's";
     letter-spacing: 1px;
+    text-align: center;
 
 }
 #botonEnviar{
