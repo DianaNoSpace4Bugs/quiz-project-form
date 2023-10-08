@@ -131,7 +131,7 @@ footer{
     padding: 14px;
     font-size: 18px;
     margin-inline: center;
-    background-color: #3f0000;
+    background-color: #250000;
     color: #c3c3c3;
     font-family: "halloween day's";
     letter-spacing: 1px;
@@ -141,3 +141,65 @@ footer{
     background-color: #a30101;
     color: #ffffff;
 }
+
+/* Media querys */
+@media screen and (min-width: 768px) {
+form{
+    padding-top: 2px;
+}
+fieldset{
+    padding-bottom: 26px;
+    margin-bottom: 20px;
+}
+legend{
+    max-width: 664px;
+}
+label{
+    max-width: none;
+    font-size: larger;
+}
+#botonEnviar{
+    min-width: 193px;
+    font-size: 28px;
+    padding: 12px;
+    font-style: italic;
+}
+footer{
+    font-size: 18px;
+    display: flow;
+}
+}
+
+@media screen and (min-width: 1366px) {
+form{
+    margin-bottom: 52px;
+}
+fieldset{
+    padding: 23px;
+    margin: 39px;
+    /* padding-bottom: 33px;
+    margin-bottom: 42px; */
+}  
+legend{
+    min-width: 1211px;
+    font-size: 28px;
+    line-height: 39px;
+    padding: 20px;
+}
+label{
+    font-size: x-large;
+    letter-spacing: 2px;
+    min-width: 1228px;
+}
+#botonEnviar{
+    min-width: 299px;
+    font-size: xx-large;
+    padding: 22px;
+    font-style: italic;
+}
+footer{
+    font-size: 28px;
+    display: flow;
+}
+}
+
