@@ -5,10 +5,12 @@
 # Tim Burton Movies Quiz
 
   <img src="./assets/nightmare-before-christmas-phone-wallpaper-thypix-38.jpg" alt="Jack Skelleton sonriendo sobre fondo negro" width=200><br>
-
-</div>
+  
 
 Welcome to the Tim Burton Movies Quiz! Test your knowledge of the movies directed by Tim Burton.
+</div>
+
+
 
 
 ## Introduction
