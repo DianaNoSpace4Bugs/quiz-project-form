@@ -23,7 +23,7 @@ This project was created using the following technologies:
 
 - HTML: Used to structure the index and quiz pages' content.
 - CSS: Employed for styling and layout the pages.
-<!-- - PENDIENTE DE CREAR: JavaScript: Implemented to add verification and functionality to the quiz. -->
+- JavaScript: Implemented to add verification and functionality to the quiz.
 - Github & Git Bash: Used to upload the project to an online repository.
 - Github Pages: Used to host the website directly from the GitHub repository.
 
@@ -31,8 +31,8 @@ This project was created using the following technologies:
 
 1. Click the "Start Quiz" button to begin the questionnaire.
 2. Once on the quiz page, select the correct answer for each of the questions by clicking on it.
-<!-- 3. PENDIENTE DE AÑADIR: Press the "Submit" button to check the quiz result.
-4. If any of the questions has not been answered or is incorrect, it will be marked in red to indicate the need for correction. -->
+3. Press the "Submit" button to check the quiz result.
+4. If any of the questions has not been answered, you will receive an alert to remind you to answer all the questions in order to view the final quiz result.
 
 
 ## Contributing
