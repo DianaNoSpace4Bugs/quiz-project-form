@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Form</title>
     <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/calabaza.png">
+    <audio autoplay src="/assets/let-the-mystery-unfold-122118.mp3"></audio>
 </head>
 <body>
     <main>
         <h1 class="title">Quiz sobre peliculas de Tim Burton</h1>
-    <form name="formulario">
+    <form id="formulario">
         
-        <fieldset id="primeraPregunta">
+        <fieldset id="primeraPregunta" name="primeraPregunta">
             <legend id="pregunta1">Pregunta 1: En "Pesadilla antes de Navidad", 
                 ¿qué título se le da a Jack Skellington en el mundo de Halloween?<br></legend>
     
             <label for="opcionCalabazas" id="respuesta1de1" name="respuesta1de1">
-                <input type="radio" name="opcionesDel1" id="opcionCalabazas">
+                <input type="radio" name="opcionesDel1" id="opcionCalabazas" value="correct">
                 Rey de las Calabazas</label>
     
             <label for="opcionTinieblas" id="respuesta2de1" name="respuesta2de1">
@@ -33,7 +35,7 @@
                 <input type="radio" name="opcionesDel1" id="opcionMaestro">
                 Maestro del Espanto</label>
         </fieldset>
-        <fieldset id="segundaPregunta">
+        <fieldset id="segundaPregunta" name="segundaPregunta">
             <legend id="pregunta2">Pregunta 2: En "La Novia Cadáver," 
                 ¿qué personaje tiene una mascota llamada Scraps?<br></legend>
 
@@ -42,7 +44,7 @@
                 Victoria Everglot</label>
 
             <label for="opcionEmily" id="respuesta2de2" name="respuesta2de2">
-                <input type="radio" name="opcionesDel2" id="opcionEmily">
+                <input type="radio" name="opcionesDel2" id="opcionEmily"  value="correct">
                 Emily</label>
 
             <label for="opcionVictor" id="respuesta3de2" name="respuesta3de2">
@@ -54,7 +56,7 @@
                 Lord Barkis</label>
 
         </fieldset>
-        <fieldset id="terceraPregunta">
+        <fieldset id="terceraPregunta" name="terceraPregunta">
             <legend id="pregunta3">Pregunta 3: En "Eduardo Manostijeras," 
                 ¿quién es el narrador de la historia?<br></legend>
 
@@ -67,7 +69,7 @@
                 Edward</label>
 
             <label for="opcionKim" id="respuesta3de3" name="respuesta3de3">
-                <input type="radio" name="opcionesDel3" id="opcionKim">
+                <input type="radio" name="opcionesDel3" id="opcionKim"  value="correct">
                 Kim Boggs</label>
 
             <label for="opcionBill" id="respuesta4de3" name="respuesta4de3">
@@ -75,12 +77,12 @@
                 Bill Boggs</label>
 
         </fieldset>
-        <fieldset id="cuartaPregunta">
+        <fieldset id="cuartaPregunta" name="cuartaPregunta">
             <legend id="pregunta4">Pregunta 4: ¿Cuál es la profesión de Benjamin Barker, el personaje que se 
                 convierte en Sweeney Todd en la película homónima?<br></legend>
     
             <label for="opcionBarbero" id="respuesta1de4" name="respuesta1de4">
-                <input type="radio" name="opcionesDel4" id="opcionBarbero">
+                <input type="radio" name="opcionesDel4" id="opcionBarbero"  value="correct">
                 Barbero</label>
     
             <label for="opcionPanadero" id="respuesta2de4" name="respuesta2de4">
@@ -96,12 +98,12 @@
                 Policía</label>
 
         </fieldset>
-        <fieldset id="quintaPregunta">
+        <fieldset id="quintaPregunta" name="quintaPregunta">
             <legend id="pregunta5">Pregunta 5: En "Dark Shadows", 
                 ¿qué criatura sobrenatural es Barnabas Collins?<br></legend>
 
             <label for="opcionVampiro" id="respuesta1de5" name="respuesta1de5">
-                <input type="radio" name="opcionesDel5" id="opcionVampiro">
+                <input type="radio" name="opcionesDel5" id="opcionVampiro"  value="correct">
                 Vampiro</label>
 
             <label for="opcionHombreLobo" id="respuesta2de5" name="respuesta2de5">
@@ -117,7 +119,7 @@
                 Brujo</label>
 
         </fieldset>
-        <fieldset id="sextaPregunta">
+        <fieldset id="sextaPregunta" name="sextaPregunta">
             <legend id="pregunta6">Pregunta 6: ¿Qué objeto especial posee Jack Skellington en 
                 "Pesadilla antes de Navidad" que le permite abrir puertas a otros mundos festivos?<br></legend>
     
@@ -126,7 +128,7 @@
                 Un reloj de bolsillo</label>
     
             <label for="opcionLlave" id="respuesta2de6" name="respuesta2de6">
-                <input type="radio" name="opcionesDel6" id="opcionLlave">
+                <input type="radio" name="opcionesDel6" id="opcionLlave"  value="correct">
                 Una llave maestra</label>
     
             <label for="opcionPata" id="respuesta3de6" name="respuesta3de6">
@@ -138,7 +140,7 @@
                 Una linterna mágica</label>
 
         </fieldset>
-        <fieldset id="septimaPregunta">
+        <fieldset id="septimaPregunta" name="septimaPregunta">
             <legend id="pregunta7">Pregunta 7: En "La Novia Cadáver," ¿cuál es la condición que Victor debe 
                 cumplir para casarse con Emily?<br></legend>
     
@@ -155,11 +157,11 @@
                 Reunir a su familia</label>
     
             <label for="opcionAnillo" id="respuesta4de7" name="respuesta4de7">
-                <input type="radio" name="opcionesDel7" id="opcionAnillo">
+                <input type="radio" name="opcionesDel7" id="opcionAnillo"  value="correct">
                 Encontrar un anillo de bodas</label>
 
         </fieldset>
-        <fieldset id="octavaPregunta">
+        <fieldset id="octavaPregunta" name="octavaPregunta">
             <legend id="pregunta8">Pregunta 8: ¿Qué talento extraordinario tiene Edward en "Eduardo Manostijeras" 
                 que lo hace famoso en el vecindario?<br></legend>
     
@@ -172,7 +174,7 @@
                 Tocar el violín</label>
     
             <label for="opcionEsculpir" id="respuesta3de8" name="respuesta3de8">
-                <input type="radio" name="opcionesDel8" id="opcionEsculpir">
+                <input type="radio" name="opcionesDel8" id="opcionEsculpir"  value="correct">
                 Esculpir arbustos</label>
     
             <label for="opcionAcrobacias" id="respuesta4de8" name="respuesta4de8">
@@ -180,12 +182,12 @@
                 Hacer acrobacias en bicicleta</label>
 
         </fieldset>
-        <fieldset id="novenaPregunta">
+        <fieldset id="novenaPregunta" name="novenaPregunta">
             <legend id="pregunta9">Pregunta 9: ¿Qué famoso personaje femenino de "Sweeney Todd" se convierte 
                 en una cómplice importante de Sweeney Todd?<br></legend>
     
             <label for="opcionLovett" id="respuesta1de9" name="respuesta1de9">
-                <input type="radio" name="opcionesDel9" id="opcionLovett">
+                <input type="radio" name="opcionesDel9" id="opcionLovett"  value="correct">
                 Mrs. Lovett</label>
     
             <label for="opcionLucy" id="respuesta2de9" name="respuesta2de9">
@@ -201,12 +203,12 @@
                 Judge Turpin</label>
 
         </fieldset>
-        <fieldset id="decimaPregunta">
+        <fieldset id="decimaPregunta" name="decimaPregunta">
             <legend id="pregunta10">Pregunta 10: En la película "Big Fish," ¿qué personaje interpretado 
                 por el director Tim Burton hace un cameo como un hombre con un cuchillo gigante en su ojo?<br></legend>
         
                 <label for="opcionHombreSombrero" id="respuesta1de10" name="respuesta1de10">
-                    <input type="radio" name="opcionesDel10" id="opcionHombreSombrero">
+                    <input type="radio" name="opcionesDel10" id="opcionHombreSombrero"  value="correct">
                     El Hombre del Sombrero Alto</label>
         
                 <label for="opcionGiganteBosque" id="respuesta2de10" name="respuesta2de10">
@@ -222,7 +224,7 @@
                     El Gigante del Ojo</label>
 
         </fieldset>
-        <input type="button" name="botonEnviar" id="botonEnviar" value="ENVIAR">
+        <input type="submit" name="botonEnviar" id="botonEnviar" value="ENVIAR">
         </form>
 
     </main>
