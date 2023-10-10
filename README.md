@@ -8,6 +8,8 @@
   
 
 Welcome to the Tim Burton Movies Quiz! Test your knowledge of the movies directed by Tim Burton.
+
+[Click to visit my page](https://diananospace4bugs.github.io/quiz-project-form.github.io/)
 </div>
 
 
